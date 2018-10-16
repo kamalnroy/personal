@@ -1,7 +1,7 @@
 version: '2'
 services:
   mysql:
-    image: mysql
+    image: kamalnroy/mysql:0.1
     ports:
       - "6603:3306"
     environment:
